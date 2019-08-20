@@ -31,23 +31,23 @@ split(String pattern)
 
 **3 ways to combine**
 1. Repetition 
-..* Any number of spaces? "[space]+" (use + operator)
-..* 1개 이상의 공백을 제거한다 
-..* "2314511167" 에서 ["23", "45", "67"] 을 만들고 싶으면 "1+"
+* Any number of spaces? "[space]+" (use + operator)
+* 1개 이상의 공백을 제거한다 
+* "2314511167" 에서 ["23", "45", "67"] 을 만들고 싶으면 "1+"
 2. Concatenation
-..* putting regex together, one after another 
-..* d.getTokens("it") => "i" and "t"
-..* "it+" => "i" and one or more "t"s
-..* "i(t+)" => explicit grouping ***when in doubt, just use parentheses***
-..* "it*" => "i" and 0 or more "t"s ***can match plain "i"***
-..* "it|st" => either "it" or "st"
-..* "[123]" => character classes - match any character in this class (set)
-..* "[1-3]" => match any number, numeral between 1 to 3 
-..* "[a-f]" => little a to little f
-..* "[^a-z123 ]" => ^ indicates NOT any characters in this set. I don't want 1, 2, 3 or small letters, and space. 
-..* example : "123.334.5999.579" ---> ["123", "334", "5999", "579"] 만들려면 d.getTokens("[^.]+");
-..* **d.getTokens("[^.]");** 쓸 경우 This will match all of the digits, but will match them individually (i.e. "1", "2", "3", "3", etc), instead of grouping them together into string.
-..* **d.getTokens("[0-9]+");** 과 **d.getTokens("123|334|5999|579");** 도 가능함. 
+* putting regex together, one after another 
+* d.getTokens("it") => "i" and "t"
+* "it+" => "i" and one or more "t"s
+* "i(t+)" => explicit grouping ***when in doubt, just use parentheses***
+* "it*" => "i" and 0 or more "t"s ***can match plain "i"***
+* "it|st" => either "it" or "st"
+* "[123]" => character classes - match any character in this class (set)
+* "[1-3]" => match any number, numeral between 1 to 3 
+* "[a-f]" => little a to little f
+* "[^a-z123 ]" => ^ indicates NOT any characters in this set. I don't want 1, 2, 3 or small letters, and space. 
+* example : "123.334.5999.579" ---> ["123", "334", "5999", "579"] 만들려면 d.getTokens("[^.]+");
+* **d.getTokens("[^.]");** 쓸 경우 This will match all of the digits, but will match them individually (i.e. "1", "2", "3", "3", etc), instead of grouping them together into string.
+* **d.getTokens("[0-9]+");** 과 **d.getTokens("123|334|5999|579");** 도 가능함. 
 
 
 3. Alternation
