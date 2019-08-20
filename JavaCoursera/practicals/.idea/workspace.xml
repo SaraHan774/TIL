@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc0eaa9d-1230-4180-95ef-b5939a613b0d" name="Default Changelist" comment="" />
+    <list default="true" id="fc0eaa9d-1230-4180-95ef-b5939a613b0d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/BigOs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practicals/FileName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practicals/FileNameDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practicals/RegionMatchesDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practicals/StringDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practicals/ToStringDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practicals/ValueOfDemo.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,8 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -20,11 +28,20 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/strings/ValueOfDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BigOs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="28" column="44" lean-forward="true" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -105,11 +122,13 @@
         <option value="$PROJECT_DIR$/src/RegionMatchesDemo.java" />
         <option value="$PROJECT_DIR$/src/StringDemo.java" />
         <option value="$PROJECT_DIR$/src/strings/StringDemo.java" />
+        <option value="$PROJECT_DIR$/src/Reduce.java" />
+        <option value="$PROJECT_DIR$/src/BigOs.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="1705" />
+    <option name="x" value="1810" />
     <option name="width" value="1950" />
     <option name="height" value="2075" />
   </component>
@@ -159,7 +178,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringDemo">
+  <component name="RunManager">
+    <configuration name="BigOs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BigOs" />
+      <module name="practicals" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FileNameDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="strings.FileNameDemo" />
       <module name="practicals" />
@@ -188,20 +214,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValueOfDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.ValueOfDemo" />
-      <module name="practicals" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BigOs" />
         <item itemvalue="Application.StringDemo" />
         <item itemvalue="Application.RegionMatchesDemo" />
         <item itemvalue="Application.FileNameDemo" />
         <item itemvalue="Application.ToStringDemo" />
-        <item itemvalue="Application.ValueOfDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +253,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1549" height="837" extended-state="7" />
+    <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15492958" />
@@ -246,7 +265,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32673267" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32673267" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -321,6 +340,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BigOs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="28" column="44" lean-forward="true" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
         </state>
       </provider>
     </entry>
