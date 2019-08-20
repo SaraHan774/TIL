@@ -56,11 +56,25 @@ split(String pattern)
 * ``` s.split("[a-z]+"); ```
 * ``` s.split("one|two|three"); ```
 
-2. ```"one (1), two (2), three (3)" ``` ===> ["one", "(1)", "two", "(2)", "three", "(3)"]
+2. ```String d = "one (1), two (2), three (3)" ``` ===> ["one", "(1)", "two", "(2)", "three", "(3)"]
 * ``` d.getTokens("[^, ]+"); ```
 * ``` d.getTokens("[a-z()0-9]+"); ```
 * ``` d.getTokens("[a-z]+|[()0-9]+"); ```
 * Hint: The ( ) will be treated as literal tokens inside the character set.
+
+```protected List<String> getTokens(String pattern)
+	{
+		ArrayList<String> tokens = new ArrayList<String>();
+		Pattern tokSplitter = Pattern.compile(pattern);
+		Matcher m = tokSplitter.matcher(text);
+		
+		while (m.find()) {
+			System.out.println(m.group());
+			tokens.add(m.group());
+		}
+		
+		return tokens;
+	} ```
 
 #### 3. Alternation
 

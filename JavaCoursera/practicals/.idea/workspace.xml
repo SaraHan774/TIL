@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc0eaa9d-1230-4180-95ef-b5939a613b0d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/FileName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strings/FileName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileNameDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strings/FileNameDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RegionMatchesDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strings/RegionMatchesDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strings/StringDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ToStringDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strings/ToStringDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ValueOfDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strings/ValueOfDemo.java" afterDir="false" />
-    </list>
+    <list default="true" id="fc0eaa9d-1230-4180-95ef-b5939a613b0d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -241,7 +234,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
+    <frame x="-6" y="-6" width="1549" height="837" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15492958" />
