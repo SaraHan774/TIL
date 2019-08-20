@@ -30,11 +30,13 @@ split(String pattern)
 * Regular expression : Characters are basic units 
 
 **3 ways to combine**
-1. Repetition 
+
+#### 1. Repetition 
 * Any number of spaces? "[space]+" (use + operator)
 * 1개 이상의 공백을 제거한다 
 * "2314511167" 에서 ["23", "45", "67"] 을 만들고 싶으면 "1+"
-2. Concatenation
+
+#### 2. Concatenation
 * putting regex together, one after another 
 * d.getTokens("it") => "i" and "t"
 * "it+" => "i" and one or more "t"s
@@ -49,8 +51,8 @@ split(String pattern)
 * **d.getTokens("[^.]");** 쓸 경우 This will match all of the digits, but will match them individually (i.e. "1", "2", "3", "3", etc), instead of grouping them together into string.
 * **d.getTokens("[0-9]+");** 과 **d.getTokens("123|334|5999|579");** 도 가능함. 
 
+#### 3. Alternation
 
-3. Alternation
 
 
 
