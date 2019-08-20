@@ -62,7 +62,8 @@ split(String pattern)
 * ``` d.getTokens("[a-z]+|[()0-9]+"); ```
 * Hint: The ( ) will be treated as literal tokens inside the character set.
 
-```protected List<String> getTokens(String pattern)
+```
+protected List<String> getTokens(String pattern)
 	{
 		ArrayList<String> tokens = new ArrayList<String>();
 		Pattern tokSplitter = Pattern.compile(pattern);
@@ -74,8 +75,8 @@ split(String pattern)
 		}
 		
 		return tokens;
-	} ```
-
+	}
+```
 #### 3. Alternation
 
 
