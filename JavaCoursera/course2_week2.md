@@ -51,6 +51,17 @@ split(String pattern)
 * **d.getTokens("[^.]");** 쓸 경우 This will match all of the digits, but will match them individually (i.e. "1", "2", "3", "3", etc), instead of grouping them together into string.
 * **d.getTokens("[0-9]+");** 과 **d.getTokens("123|334|5999|579");** 도 가능함. 
 
+#### *Examples from the quiz*
+1. ``` String s = "%one%%two%%%three%%%%" ``` ===> ["%", "%%", "%%%", "%%%%"]
+* ``` s.split("[a-z]+"); ```
+* ``` s.split("one|two|three"); ```
+
+2. ```"one (1), two (2), three (3)" ``` ===> ["one", "(1)", "two", "(2)", "three", "(3)"]
+* ``` d.getTokens("[^, ]+"); ```
+* ``` d.getTokens("[a-z()0-9]+"); ```
+* ``` d.getTokens("[a-z]+|[()0-9]+"); ```
+* Hint: The ( ) will be treated as literal tokens inside the character set.
+
 #### 3. Alternation
 
 

@@ -1,3 +1,5 @@
+package strings;
+
 public class FileName {
 
     private String fullPath;

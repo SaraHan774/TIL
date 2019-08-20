@@ -1,3 +1,5 @@
+package strings;
+
 public class FileNameDemo {
 
     public static void main(String[] args) {
