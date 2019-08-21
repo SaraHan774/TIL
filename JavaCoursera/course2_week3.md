@@ -117,7 +117,8 @@ count++ [연산 n번];
 ## Core: Computing Big O with Nested Operations 
 * not consecutive for loops, but one loop inside another. 
 * **Count from inside out**
-***Quadratic algorithm***
+
+* ***Quadratic algorithm***
 ```
     public static int maxDifference (int[] vals) {
         int max = 0; //O(1)
@@ -136,7 +137,7 @@ count++ [연산 n번];
     }
 //Total : O(n^2)
 ```
-*** log 밑이 10이고, 지수가 n일 때 tightest big-O bounds 는 O(log 밑 2 지수 n)인 경우이다.***
+***log 밑이 10이고, 지수가 n일 때 tightest big-O bounds 는 O(log 밑 2 지수 n)인 경우이다.***
 * We can convert between different bases of logarithms by multiplying by a constant factor.
 
 ## Selection Sort 
@@ -156,3 +157,45 @@ public static void selectionSort(int [] vals){
 	}
 }
 ```
+## Core: Worst, Best, and Average Cases
+* Describe why each of these is used 
+
+* hasLetter(String word, char letter) 메소드를 보았을 때 인풋에 따라 필요한 연산의 횟수가 달라지는 것을 알 수 있다. 
+* best case : (hasLetter 메소드의 경우) 찾고자 하는 char 이 가장 앞에 있는 것이 best case 이다. 
+* worst case (upper bound) : 최악의 경우는 스트링 안에 찾고자 하는 char 이 없는 경우이다. / 혹은 찾고자 하는 char 이 가장 뒤에 있을 때 
+* best case <= worst case 
+* *why do we care ?* : it is useful to prepare for this extream situations. 
+* average case : consider all possible inputs -> average ... this can get messy (realistic but too hard)
+
+## Core: Analyzing Search Algorithms
+* Linear search / Binary Search
+* O(1) ~ O(n)  /  assumption: sorted array , O(1) ~ O(log n)
+
+## Core: Analyzing Sorting Algorithms
+* Selection Sort : O(n^2) ~ O(n^2)
+* Insertion Sort : O(n) ~ O(n^2)
+
+## Core: Merge Sort
+* explain the use of recursion in merge sort 
+
+* if list has one element, return 
+* Devide list in half 
+* sort first half 
+* sort second half ---> ***RECURSION***
+* Merge sorted lists  
+* O(nlogn) ~ O(nlogn)
+
+* cf. Quick sort : O(nlogn) ~ O(n^2)
+
+
+
+
+
+
+
+
+
+
+
+
+
