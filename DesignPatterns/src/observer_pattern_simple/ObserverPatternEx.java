@@ -1,8 +1,8 @@
-package observer_pattern;
+package observer_pattern_simple;
 
 public class ObserverPatternEx {
     public static void main(String[] args) {
-        System.out.println("--- observer_pattern.Observer pattern demo ---");
+        System.out.println("--- observer_pattern_simple.Observer pattern demo ---");
 
         Observer observer = new Observer();
         Subject subject = new Subject();

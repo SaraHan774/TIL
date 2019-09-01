@@ -1,4 +1,4 @@
-package observer_pattern;
+package observer_pattern_simple;
 
 public interface ISubject {
     void register(Observer o);

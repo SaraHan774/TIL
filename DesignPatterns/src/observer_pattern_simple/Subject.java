@@ -1,11 +1,14 @@
-package observer_pattern;
+package observer_pattern_simple;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Subject implements ISubject{
-
+    //Obviously now we need to make some change in the above implementation.
+    //note that we cannot use concrete observers like the following.
     List<Observer> observerList = new ArrayList<>();
+    //instead, we need to use List<InterfaceObserver> = ~
+
     private int _flag;
 
     public int get_flag() {
