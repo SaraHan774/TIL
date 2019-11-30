@@ -1,11 +1,8 @@
-# TIL
-Today I Learned 
-## Android
-## Java
-1. Coursera : UCSD *Intermediate Programming in Java Specialization*
-2. Udacity : *Java Developer Nanodegree*
-## Python
-1. Using Flask
-## Kotlin
-- *Kotlin Bootcamp for Programmers*
-## Machine Learning
+# Today I Learned
+* Organizing currently ongoing projects & lectures. 
+
+### Repositories 
+* [Algorithms in C](https://github.com/SaraHan774/algorithms_c/tree/master/today_i_learned)
+* [C++ Programming](https://github.com/SaraHan774/practice_cpp/tree/master/today_i_learned)
+* [System Programming](https://github.com/SaraHan774/system_programming)
+* [Python : Flask Project](https://github.com/SaraHan774/project_flask)
