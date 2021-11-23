@@ -65,9 +65,9 @@ source.subscribe(Log::i);
 
 ### reduce 함수 
 
-- 발행한 데이터를 모두 사용하여 어떤 최종 결과 데이터를 합성할 때 활용함 
+- 발행한 데이터를 모두 사용하여 <u>어떤 최종 결과 데이터를 합성</u>할 때 활용함 
 - map/filter/reduce 삼종 세트 중 하나 
-- 상황에 따라 발행된 데이터를 취합하여 어떤 결과를 만들어 낼 때 reduce 계열 사용 
+- 상황에 따라 발행된 데이터를 **취합**하여 어떤 결과를 만들어 낼 때 reduce 계열 사용 
 
 
 
@@ -84,7 +84,7 @@ source.subscribe(System.out::println);
 
 
 - `Maybe<String>` 
-  - reduce 함수를 호출하면 인자로 넘긴 람다 표현식에 의해 결과 없이 완료될 수 있으므로, Observable 이 아니라 Maybe 객체로 리턴된다. 
+  - reduce 함수를 호출하면 <u>인자로 넘긴 람다 표현식에 의해 결과 없이 완료될 수 있으므로</u>, Observable 이 아니라 Maybe 객체로 리턴된다. 
   - `public final Maybe<T> reduce(BiFunction<T, T, T> reducer)` 
 
 

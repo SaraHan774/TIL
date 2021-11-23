@@ -1,0 +1,12 @@
+# Typescript 
+- Static typing 
+- OOP capabilities 
+- What is it ?
+	- Language 
+	- Compiler : Converts TypeScript code into native JavaScript, but also provides the programmer with assistance in writing code with fewer errors. 
+- Developer can write code that is easier to understand and refactor and contains fewer bugs. 
+- Adds discipline to the development workflow by forcing errors to be fixed while still in development. 
+- Made by Microsoft 
+- TypeScript has no runtime. It uses a process called transpilation. 
+- Transpilation is a method where code from one language is "compiled" or converted into another language. 
+- What this means is that all TypeScript code ultimately is converted into JavaScript code before it is finally deployed and run. 
